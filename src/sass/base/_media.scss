@@ -1,0 +1,265 @@
+@media (max-width: 1200px)
+{
+    .carousel{
+        &__inner{
+            width: 500px;
+            img{
+                width: 500px;
+            }
+        }
+    }
+    .footer{
+        &__info{
+            width: 293px;
+            padding: 33px 25px;
+            height: 200px;
+        }
+        &__addr{
+            font-size: 15px;
+            margin-bottom: 17px;
+        }
+        &__phone{
+            margin-bottom: 28px;
+        }
+    }
+}
+@media (max-width: 991px)
+{
+    .container{
+        width: 90%;
+    }
+    .promo{
+        &__header{
+            font-size: 39px;
+        }
+        &__subheader{
+            font-size: 20px;
+        }
+        background: url(../img/bg/header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header{
+        &__logo{
+            width: 220px;
+        }
+        &__official{
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+    .benefits{
+        &__icon{
+            font-size: 12px;
+            &:nth-child(1)
+            {
+                width: 250px;
+            }
+            &:nth-child(2)
+            {
+                width: 250px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            &:nth-child(3)
+            {
+                width: 250px;
+            }
+        }
+        span{
+            display: block;
+            font-size: 12px;
+        }
+    }
+
+    .consultation{
+        .title{
+            font-size: 30px;
+        }
+        &__descr{
+            font-size: 18px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 448px;
+            img{
+                width: 448px;
+            }
+        }
+    }
+    .feedback{
+        &__item{
+            &__img{
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+}
+@media (max-width: 767px)
+{
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    .button_main{
+        width: 234px;
+        height: 40px;
+    }
+
+    .consultation{
+        .title{
+            font-size: 21px;
+        }
+        min-height: 510px;
+        padding: 50px 0 50px 0;
+        &__descr{
+            font-size: 14px;
+        }
+    }
+    .catalog{
+        &__tab{
+            font-size: 13px;
+            width: 25%;
+            height: 30px;
+            line-height: 2;
+            &:hover{
+                box-shadow: none;
+            }
+        }
+        &__content{
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .feedback{
+        &__item{
+            &__text{
+                font-size: 15px;
+                line-height: 17px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px)
+{
+    .header{
+        &__phone{
+            font-size: 15px;
+        }
+        button{
+            width: 130px;
+        }
+        &__logo{
+            width: 120px;
+        }
+    }
+    .promo{
+        min-height: 360px;
+        padding-bottom: 50px;
+        &__header{
+            font-size: 23px;
+        }
+        &__subheader{
+            font-size: 13px;
+        }
+        &__wrapper{
+            margin-top: 37px;
+        }
+        &__icons{
+            display: none;
+        }
+    }
+    .benefits{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__header{
+            font-size: 20px;
+        }
+        &__icons{
+            flex-direction: column;
+            align-items:center;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    .consultation{
+        .title{
+            font-size: 13px;
+        }
+        &__descr{
+            font-size: 10px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 80%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .catalog{
+        &__tab{
+            font-size: 11px;
+            width: 30%;
+            height: 30px;
+            line-height: 12px;
+            padding-top: 8px;
+        }
+    }
+    .feed-form{
+        width: 100%;
+    }
+    .feedback{
+        &__item{
+            &__img{
+                width: 90px;
+                height: 100%;
+                margin-right: 20px;
+            }
+            &__text{
+                font-size: 14px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .modal{
+        width: 318px;
+        &__close{
+            top: 2px;
+            right: 2px;
+        }
+        &__subtitle{
+            font-size: 14px;
+        }
+        &__descr{
+            font-size: 11px;
+        }
+    }
+}
+
+@media (max-width: 338px)
+{
+    .catalog{
+        &__tab{
+            &:nth-child(3){
+                padding-top: 2px;
+            }
+        }
+    }
+    .feedback{
+        &__item{
+            &__img{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.carousel{
+    padding: 81px 0;
+    &__inner{
+        width: 750px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .prev, .next{
+        position: absolute;
+        border: none;
+        background: #fff;
+        left: -97px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        img{
+            width: 31px;
+            height: 50px;
+        }
+    }
+
+    .next{
+        position: absolute;
+        border: none;
+        background: #fff;
+        right: -97px;
+        left: auto;
+    }
+    &__dots{
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        li button{
+            display: block;
+            height: 6px;
+            width: 50px;
+            border: solid 1px gray;
+            background: #fff;
+            margin: 0 5px;
+            color: #fff;
+            margin-top: 10px;
+        }
+        li.slick-active button{
+            background: $main-color;
+        }
+    }
+}
